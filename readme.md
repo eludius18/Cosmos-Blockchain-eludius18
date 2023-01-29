@@ -1,5 +1,11 @@
-# eludius18blockchain
-**eludius18blockchain** is a blockchain built using Cosmos SDK and Tendermint and created with [Ignite CLI](https://ignite.com/cli).
+# Cosmos Blockchain eludius18
+**eludius18-blockchain** is a blockchain built using Cosmos SDK and Tendermint and created with [Ignite CLI](https://ignite.com/cli).
+
+## Add PATH
+
+```
+PATH=$PATH:$(go env GOPATH)/bin
+```
 
 ## Get started
 
