@@ -1,0 +1,12 @@
+syntax = "proto3";
+package eludius18blockchain.eludius18blockchain;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "eludius18-blockchain/x/eludius18blockchain/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}

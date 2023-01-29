@@ -1,0 +1,14 @@
+syntax = "proto3";
+package eludius18blockchain.eludius18blockchain;
+
+import "gogoproto/gogo.proto";
+import "eludius18blockchain/eludius18blockchain/params.proto";
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "eludius18-blockchain/x/eludius18blockchain/types";
+
+// GenesisState defines the eludius18blockchain module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+  // this line is used by starport scaffolding # genesis/proto/state
+}
